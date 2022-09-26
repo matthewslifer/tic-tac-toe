@@ -234,7 +234,7 @@ function reset () {
 
 //Function checks the turn of the players and puts the appropriate value
 flag = 1;
-function myfunc_3 () {
+function func_3 () {
     if (flag == 1) {
         document.getElementById("box_1").value = "X";
         document.getElementById("box_1").disabled = true;
@@ -247,7 +247,7 @@ function myfunc_3 () {
     }
 }
 
-function myfunc_4 () {
+function func_4 () {
     if (flag == 1) {
         document.getElementById("box_2").value = "X";
         document.getElementById("box_2").disabled = true;
@@ -260,7 +260,7 @@ function myfunc_4 () {
     }
 }
 
-function myfunc_5 () {
+function func_5 () {
     if (flag == 1) {
         document.getElementById("box_3").value = "X";
         document.getElementById("box_3").disabled = true;
@@ -273,7 +273,7 @@ function myfunc_5 () {
     }
 }
 
-function myfunc_6 () {
+function func_6 () {
     if (flag == 1) {
         document.getElementById("box_4").value = "X";
         document.getElementById("box_4").disabled = true;
@@ -286,7 +286,7 @@ function myfunc_6 () {
     }
 }
 
-function myfunc_7 () {
+function func_7 () {
     if (flag == 1) {
         document.getElementById("box_5").value = "X";
         document.getElementById("box_5").disabled = true;
@@ -299,7 +299,7 @@ function myfunc_7 () {
     }
 }
 
-function myfunc_8 () {
+function func_8 () {
     if (flag == 1) {
         document.getElementById("box_6").value = "X";
         document.getElementById("box_6").disabled = true;
@@ -312,7 +312,7 @@ function myfunc_8 () {
     }
 }
 
-function myfunc_9 () {
+function func_9 () {
     if (flag == 1) {
         document.getElementById("box_7").value = "X";
         document.getElementById("box_7").disabled = true;
@@ -325,7 +325,7 @@ function myfunc_9 () {
     }
 }
 
-function myfunc_10 () {
+function func_10 () {
     if (flag == 1) {
         document.getElementById("box_8").value = "X";
         document.getElementById("box_8").disabled = true;
@@ -338,7 +338,7 @@ function myfunc_10 () {
     }
 }
 
-function myfunc_11 () {
+function func_11 () {
     if (flag == 1) {
         document.getElementById("box_9").value = "X";
         document.getElementById("box_9").disabled = true;
