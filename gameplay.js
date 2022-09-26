@@ -205,4 +205,148 @@ function myfunc() {
             .innerHTML = 'Match Tie';
         window.alert('Match Tie');
     }
+    //Printing Result
+    else {
+        if (flag == 1) {
+            document.getElementById('print')
+                .innerHTML = "Player X Turn";
+        }
+        else {
+            document.getElementById('print')
+                .innerHTML = "Player 0 Turn";
+        }
+    }
+}
+
+//Function to reset the game
+function reset () {
+    location.reload();
+    document.getElementById('box_1').value = '';
+    document.getElementById('box_2').value = '';
+    document.getElementById('box_3').value = '';
+    document.getElementById('box_4').value = '';
+    document.getElementById('box_5').value = '';
+    document.getElementById('box_6').value = '';
+    document.getElementById('box_7').value = '';
+    document.getElementById('box_8').value = '';
+    document.getElementById('box_9').value = '';
+}
+
+//Function checks the turn of the players and puts the appropriate value
+flag = 1;
+function myfunc_3 () {
+    if (flag == 1) {
+        document.getElementById("box_1").value = "X";
+        document.getElementById("box_1").disabled = true;
+        flag = 0;
+    }
+    else {
+        document.getElementById("box_1").value = "0";
+        document.getElementById("box_1").disabled = true;
+        flag = 1;
+    }
+}
+
+function myfunc_4 () {
+    if (flag == 1) {
+        document.getElementById("box_2").value = "X";
+        document.getElementById("box_2").disabled = true;
+        flag = 1;
+    }
+    else {
+        document.getElementById("box_2").value = "0";
+        document.getElementById("box_2").disabled = true;
+        flag = 1;
+    }
+}
+
+function myfunc_5 () {
+    if (flag == 1) {
+        document.getElementById("box_3").value = "X";
+        document.getElementById("box_3").disabled = true;
+        flag = 0;
+    }
+    else {
+        document.getElementById("box_3").value = "0";
+        document.getElementById("box_3").disabled = true;
+        flag = 1;
+    }
+}
+
+function myfunc_6 () {
+    if (flag == 1) {
+        document.getElementById("box_4").value = "X";
+        document.getElementById("box_4").disabled = true;
+        flag = 0;
+    }
+    else {
+        document.getElementById("box_4").value = "0";
+        document.getElementById("box_4").disabled = true;
+        flag = 1;
+    }
+}
+
+function myfunc_7 () {
+    if (flag == 1) {
+        document.getElementById("box_5").value = "X";
+        document.getElementById("box_5").disabled = true;
+        flag = 0;
+    }
+    else {
+        document.getElementById("box_5").value = "0";
+        document.getElementById("box_5").disabled = true;
+        flag = 1;
+    }
+}
+
+function myfunc_8 () {
+    if (flag == 1) {
+        document.getElementById("box_6").value = "X";
+        document.getElementById("box_6").disabled = true;
+        flag = 0;
+    }
+    else {
+        document.getElementById("box_6").value = "0";
+        document.getElementById("box_6").disabled = true;
+        flag = 1;
+    }
+}
+
+function myfunc_9 () {
+    if (flag == 1) {
+        document.getElementById("box_7").value = "X";
+        document.getElementById("box_7").disabled = true;
+        flag = 0;
+    }
+    else {
+        document.getElementById("box_7").value = "0";
+        document.getElementById("box_7").disabled = true;
+        flag = 1;
+    }
+}
+
+function myfunc_10 () {
+    if (flag == 1) {
+        document.getElementById("box_8").value = "X";
+        document.getElementById("box_8").disabled = true;
+        flag = 0
+    }
+    else {
+        document.getElementById("box_8").value = "0";
+        document.getElementById("box_8").disabled = true;
+        flag = 1;
+    }
+}
+
+function myfunc_11 () {
+    if (flag == 1) {
+        document.getElementById("box_9").value = "X";
+        document.getElementById("box_9").disabled = true;
+        flag = 0;
+    }
+    else {
+        document.getElementById("box_9").value = "0";
+        document.getElementById("box_9").disabled = true;
+        flag = 1;
+    }
 }
